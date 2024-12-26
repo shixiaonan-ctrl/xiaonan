@@ -1,0 +1,219 @@
+.main{
+    width:900px;
+    height:1000px;
+    display:flex;
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.top{
+    position: absolute;
+    width:2050px;
+    height:20px;
+    display:flex;
+    justify-content:space-around;
+    top:22px;
+    z-index:1;
+}
+.san:hover{
+    transform: scale(0.8);
+    transition: transform 0.8s ease;
+}
+.photo:hover{
+    transform: scale(0.8);
+    transition: transform 0.8s ease;
+}
+.sou:hover{
+    transform: scale(0.8);
+    transition: transform 0.8s ease;
+}
+.button{
+    position:absolute;
+    left: 450px;
+    top: 660px;
+}
+.bird{
+    position:absolute;
+    width:1200px;
+    height:300px;
+    top: 783px;
+    left:410px;
+    display:flex;
+    justify-content:space-around;
+}
+.bird1:hover{
+    transition: transform 0.8s ease;
+    transform: translateY(-15px);
+}
+.bird2:hover{
+    transition: transform 0.8s ease;
+    transform: translateY(-15px);
+}
+.bird3:hover{
+    transition: transform 0.8s ease;
+    transform: translateY(-15px);
+}
+.second{
+ position: absolute;
+ left: 0px;
+ top: 1527px;
+ width: 2050px;
+ height: 760px;
+ display:flex;
+ justify-content:center;
+}
+.character{
+    position:absolute;
+    left: 640px;
+    top: 1444px;
+    width: 946px;
+    height: 541px;
+    z-index: 5;
+}
+.but{
+    position:absolute;
+    z-index: 6;
+}
+.character:hover{
+    transition: transform 0.8s ease;
+    transform: translateY(-20px);
+}
+.but:hover{
+    transform: scale(0.8);
+    transition: transform 0.8s ease;
+}
+.butt{ position:absolute;left: 848px;
+    top: 2389.854px;width:290px;left:850px;}  
+    @keyframes flow-border {
+        0% {
+            border-top-width: 0;
+            border-right-width: 0;
+            border-bottom-width: 0;
+            border-left-width: 0;
+        }
+        25% {
+            border-top-width: 4px;
+            border-right-width: 0;
+            border-bottom-width: 0;
+            border-left-width: 0;
+        }
+        50% {
+            border-top-width: 4px;
+            border-right-width: 4px;
+            border-bottom-width: 0;
+            border-left-width: 0;
+        }
+        75% {
+            border-top-width: 4px;
+            border-right-width: 4px;
+            border-bottom-width: 4px;
+            border-left-width: 0;
+        }
+        100% {
+            border-top-width: 4px;
+            border-right-width: 4px;
+            border-bottom-width: 4px;
+            border-left-width: 4px;
+        }
+    }
+    .butt:hover {
+        transition: border 0.3s ease;
+        border-style: solid;
+        border-color: rgb(42, 63, 23); 
+        animation: flow-border 1s linear; 
+    }
+    .animals{
+        position:absolute;
+        height:500px;
+        width:1200px;
+        top:2489px;
+        left:400px;
+        display:flex;
+        flex-direction: row;
+        justify-content:space-around;
+    }
+    .horse:hover{
+        transition: transform 0.8s ease;
+    transform: translateY(-10px);
+    }
+    .kangaroo:hover{
+        transition: transform 0.8s ease;
+    transform: translateY(-10px);
+    }
+    .lion:hover{
+        transition: transform 0.8s ease;
+    transform: translateY(-10px);
+    }
+    .hummingbird:hover{transition: transform 0.8s ease;
+        transform: translateY(-10px);}
+    .butto{ position: absolute;
+        left: 860px;
+        top: 2978px;
+        width: 290px;
+        height: 73px;
+        transition: background-color 0.3s ease - in - out, color 0.3s ease - in - out;}
+        .butto:hover {
+            background-color: rgb(42, 63, 23);
+            color: white;
+            }
+    .cat{
+        position:absolute;
+        width: 702px;
+        height: 1020px;
+        left: 0px;
+        top:3133px;
+    }
+    .write{
+        position:absolute;
+    }
+    .the:hover{ transition: transform 0.8s ease;
+        transform: translateY(-10px);}
+    .family:hover{transition: transform 0.8s ease;
+        transform: translateX(15px);
+        transform: scale(1.1);}
+        .number{
+            position:absolute;
+            top:3480px;
+            left:1086px;
+            width:1000px;
+            height:600px;
+            display:flex;
+            flex-direction: column;
+            justify-content:space-around;
+        }
+        .one:hover{
+            transition: transform 0.8s ease;
+        transform: translateX(25px);
+        }
+        .two:hover{
+            transition: transform 0.8s ease;
+        transform: translateX(25px);
+        }
+        .three:hover{
+            transition: transform 0.8s ease;
+        transform: translateX(25px);
+        }.four:hover{
+            transition: transform 0.8s ease;
+        transform: translateX(25px);
+        }
+        .choice{
+            position: absolute;
+            left: 1228px;
+            top: 4407px;
+            width: 288px;
+            height: 74px;
+            border:none;
+            background-color: rgb(119, 134, 107);
+            color:white;
+            transition: background-color 0.3s ease - in - out, color 0.3s ease - in - out;
+        }
+    .choice:hover{
+        transition: transform 0.8s ease;
+        transform: translateY(-18px);
+        background-color: white;
+        color: rgb(42, 63, 23);
+    }
